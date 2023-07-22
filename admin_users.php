@@ -8,7 +8,7 @@ $admin_id = $_SESSION['admin_id'];
 
 if(!isset($admin_id)){
     header('location:login.php');
-}
+};
 
 if(isset($_GET['delete'])){
     $delete_id = $_GET['delete'];

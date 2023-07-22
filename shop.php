@@ -127,7 +127,7 @@ if(isset($_POST['add_to_cart'])){
                 echo '<p class="empty">no products add yet!</p>';
             }
         ?>
-        </div>
+        </div> 
 
     </section>
 
